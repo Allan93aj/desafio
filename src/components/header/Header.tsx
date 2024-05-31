@@ -1,7 +1,7 @@
 import './Header.scss'
 import Logo from '../../img/logo.webp'
-// import VideoPlayerControl from '../VideoPlayer/VideoPlayerControl'
-// import BtnMudarDeVida from '../Btn-mudardevida/BtnMudarDeVida';
+import VideoPlayerControl from '../VideoPlayer/VideoPlayerControl'
+import BtnMudarDeVida from '../Btn-mudardevida/BtnMudarDeVida';
 
 const Header = () => {
   return (
@@ -15,11 +15,11 @@ const Header = () => {
                 Você é tão Capaz de Virar Bombeiro Militar Quantos os<b> 60 Alunos </b>que Nós Aprovamos no CFO CBMERJ 2023
             </span>
         </div>
-        {/* <div className='video'>
+        <div className='video'>
             <VideoPlayerControl src={''} /> 
         </div>
 
-        <BtnMudarDeVida/> */}
+        <BtnMudarDeVida/>
         </div>
     </header>
   )
