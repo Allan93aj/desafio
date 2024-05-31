@@ -1,0 +1,67 @@
+header{
+    img{
+        margin: 10px 0 20px 0;
+    }
+
+    background-color:#f9f9f9;
+    height: 450px;
+    text-align: center;
+    padding-bottom: 1000px;
+    .container-header{
+        background-color: rgb(56, 173, 166);
+        max-height: 450px;
+        .txt-header{
+            width: 60%;
+            margin: 0 auto;
+            span{
+                font-size: 54px;
+                color: #fff;
+                line-height: 64.8px;
+                letter-spacing: -0.1px;
+            }
+        }
+    
+    }
+    
+    .video-player {
+        position: relative;
+        width: 50%;
+        max-width: 800px;
+        margin: 10px auto 45px;
+    
+        .video {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+    
+        .controls {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            pointer-events: none; // Permite que clique passe pelo botão para o vídeo
+            transition: opacity 0.3s ease-in-out; // Suave transição de visibilidade
+    
+            button {
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                margin: 5px;
+                cursor: pointer;
+                border-radius: 5px;
+                pointer-events: auto; // Permite clique no botão
+    
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.7);
+                }
+            }
+        }
+    }
+   
+    
+}

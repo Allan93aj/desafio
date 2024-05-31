@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../header/Header.scss'
+import './Header.scss'
 import Logo from '../../img/logo.webp'
 // import VideoPlayerControl from '../VideoPlayer/VideoPlayerControl'
 // import BtnMudarDeVida from '../Btn-mudardevida/BtnMudarDeVida';
