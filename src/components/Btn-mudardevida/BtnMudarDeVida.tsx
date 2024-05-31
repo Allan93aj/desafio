@@ -40,7 +40,7 @@ const BtnMudarDeVida = () => {
   return (
     <Divmudardevida>
             <Btnmudardevida onClick={scrollToFooter}>
-                Vou mudar de vida
+                Vou Mudar de Vida
             </Btnmudardevida>
         </Divmudardevida>
   )

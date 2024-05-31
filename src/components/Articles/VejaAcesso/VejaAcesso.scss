@@ -1,19 +1,34 @@
-.listas li{
-    display: flex;
-    gap: 20px;
-    background-color: rgb(56, 173, 166);
+.lista-acesso{
+    position: relative;
+    top: 170px;
     width: 960px;
-    margin: 20px auto;
-    border-radius: 50px;
-    align-items: center;
-    color: #fff;
-    filter: hue-rotate(0deg) saturate(1) brightness(1) contrast(1) invert(0) sepia(0) blur(0px) grayscale(0) drop-shadow(rgb(166, 165, 165) 0px 16px 16px);
-        .img-list{
-            background: #fff;
-            border-radius: 50px;
-            padding: 5px;
-            margin: 5px;
-        }
-    
-    
+    margin: 0 auto;
+    .txt-listas h1{
+        font-size: 50px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .listas li{
+        display: flex;
+        gap: 20px;
+        background-color: rgb(56, 173, 166);
+        width: 960px;
+        margin: 20px auto;
+        border-radius: 50px;
+        align-items: center;
+        color: #fff;
+        filter: hue-rotate(0deg) saturate(1) brightness(1) contrast(1) invert(0) sepia(0) blur(0px) grayscale(0) drop-shadow(rgb(166, 165, 165) 0px 16px 16px);
+            .img-list{
+                background: #fff;
+                border-radius: 50px;
+                padding: 5px;
+                margin: 5px;
+            }
+        
+        
+    }
 }
+
+

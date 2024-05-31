@@ -3,7 +3,7 @@ import './VejaAcesso.scss'
 
 const VejaAcesso = () => {
   return (
-    <div>
+    <div className="lista-acesso">
         <div className='txt-listas'> 
             <h1>Veja Tudo que Você Terá Acesso Sendo Nosso Aluno</h1>
         </div>

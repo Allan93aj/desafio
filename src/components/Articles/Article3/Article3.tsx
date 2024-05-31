@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 const Phrase = styled.div`
-height: 343px;
+height: 420px;
 background-color: rgb(56, 173, 166);
 position: relative;
-top: -88px;
+top: 250px;
 `
 
 const PhraseContainer = styled.div`
