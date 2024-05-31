@@ -1,4 +1,3 @@
-import React from 'react'
 import './Header.scss'
 import Logo from '../../img/logo.webp'
 // import VideoPlayerControl from '../VideoPlayer/VideoPlayerControl'
