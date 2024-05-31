@@ -3,7 +3,7 @@ import BtnMudarDeVida from '../Btn-mudardevida/BtnMudarDeVida'
 import './CardPrecos.scss'
 
 const CardPrecos = () => (
-    <div className="cardprecos">
+    <div id="cardprecos">
         <div className="cardprecos-txt">
             <h1>Você vai Estar na Próxima Lista de Aprovados.</h1>
             <span>Basta dar o primeiro passo e desbloquear seu acesso na nossa turma agora mesmo</span>
@@ -35,6 +35,9 @@ const CardPrecos = () => (
                 <BtnMudarDeVida />
             </div>
 
+        <div className='acessoAno'>
+            <h3>Acesso por 1 ano</h3>
+        </div>
             
         </div>
     </div>

@@ -12,6 +12,8 @@ import Galery from './components/Articles/Galery/Galery'
 import Relatos from './components/relatos/Relatos'
 import Garantia from './components/garantia/Garantia'
 import CardPrecos from './components/cardPrecos/CardPrecos'
+import Duvidas from './components/duvidas/Duvidas'
+import ScrollToTopButton from './components/voltaraotopo/ScrollToTopButton'
 
 const App = () => {
   return (
@@ -28,7 +30,9 @@ const App = () => {
     <Relatos/>
     <Garantia/>
     <CardPrecos/>
+    <Duvidas/>
     <Footer/>
+    <ScrollToTopButton />
     </>
   )
 }

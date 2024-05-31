@@ -30,8 +30,8 @@ z-index: 10;
 
 
 const BtnMudarDeVida = () => {
-  const scrollToFooter = () => {
-    scroller.scrollTo('footer', {
+  const scrollToCardPrecos = () => {
+    scroller.scrollTo('cardprecos', {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart'
@@ -39,7 +39,7 @@ const BtnMudarDeVida = () => {
   };
   return (
     <Divmudardevida>
-            <Btnmudardevida onClick={scrollToFooter}>
+            <Btnmudardevida onClick={scrollToCardPrecos}>
                 Vou Mudar de Vida
             </Btnmudardevida>
         </Divmudardevida>

@@ -27,6 +27,7 @@ justify-content: center;
 gap: 20px;
 cursor: pointer;
 `
+
  
 const Relatos = () => {
   return (
