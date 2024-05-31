@@ -1,0 +1,26 @@
+.container{
+    background-color: #E9E4E4;
+height: 300px;
+position: relative;
+top: -86px;
+z-index: 0;
+padding: 160px 100px;
+height: 625px;
+text-align: center;
+    .container-txt{ 
+        width:960px;
+        margin: 0 auto;
+        h1{
+            font-weight: 400;
+            color: rgb(60, 67, 68);
+            font-size: 62px;
+            line-height: 80px;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-weight: bold;
+            color: rgb(56, 173, 166);
+            font-size:54px;
+        }
+    }
+}

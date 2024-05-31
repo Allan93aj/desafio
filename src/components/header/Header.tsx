@@ -1,4 +1,4 @@
-import './Header.scss'
+import '../header/Header.scss'
 import Logo from '../../img/logo.webp'
 import Fotovideo from '../../img/fotovideo.png'
 import BtnMudarDeVida from '../Btn-mudardevida/BtnMudarDeVida';
@@ -16,7 +16,7 @@ const Header = () => {
             </span>
         </div>
         <div className='video'>
-            <img src={Fotovideo} alt="" />
+            <img src={Fotovideo} alt="" /> 
         </div>
 
         <BtnMudarDeVida/>
