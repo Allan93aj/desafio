@@ -1,0 +1,64 @@
+.cardprecos{
+    position: relative;
+    top: 500px;
+    text-align: center;
+    .cardprecos-txt h1{
+        font-weight: bold;
+        color: rgb(56, 173, 166);
+        font-size: 48px;
+    }
+    .cardprecos-txt span{
+        color: rgb(36, 36, 36);
+        font-size: 26px;
+    }
+
+    .cardvalores{
+        width: 420px;
+        margin: 80px auto;
+        .cardvalores-txt{
+            text-align: center;
+            padding: 32px;
+            background-color: rgb(56, 173, 166);
+            border-radius: 16px 16px 0 0;
+            filter: hue-rotate(0deg) saturate(1) brightness(1) contrast(1) invert(0) sepia(0) blur(0px) grayscale(0) drop-shadow(rgb(107, 107, 107) 0px 0px 58px);
+            h1{
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+    .cardlist{
+        text-align: left;
+        background: #f2f2f2;
+        ul{
+            padding: 20px;
+            margin: 0;
+            li{
+                padding: 5px;
+            }
+        }
+        
+    }
+
+    .cardvalor{
+        text-align: center;
+            padding: 32px 0 0;
+            background-color: rgb(56, 173, 166);
+            border-radius: 0px 0px 16px 16px;
+            filter: hue-rotate(0deg) saturate(1) brightness(1) contrast(1) invert(0) sepia(0) blur(0px) grayscale(0) drop-shadow(rgb(107, 107, 107) 0px 0px 58px);
+            height: 255px;
+            h1{
+                color: #fff;
+                font-weight: bold;
+                font-size: 54px;
+                span{
+                    font-weight: 400;
+                }
+            }
+            h2{
+                font-weight: 400;
+            }
+    }
+}

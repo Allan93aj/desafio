@@ -9,6 +9,9 @@ import Plataformas from './components/Articles/Plataformas/Plataformas'
 import VejaAcesso from './components/Articles/VejaAcesso/VejaAcesso'
 import Article3 from './components/Articles/Article3/Article3'
 import Galery from './components/Articles/Galery/Galery'
+import Relatos from './components/relatos/Relatos'
+import Garantia from './components/garantia/Garantia'
+import CardPrecos from './components/cardPrecos/CardPrecos'
 
 const App = () => {
   return (
@@ -22,6 +25,9 @@ const App = () => {
     <VejaAcesso/>
     <Article3/>
     <Galery/>
+    <Relatos/>
+    <Garantia/>
+    <CardPrecos/>
     <Footer/>
     </>
   )

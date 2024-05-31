@@ -18,6 +18,7 @@ const PhraseTxt = styled.h1`
     color: #fff;
     font-weight: 400;
     font-size: 54px;
+    line-height: 80px;
 `
 
 const Article2 = () => {

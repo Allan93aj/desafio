@@ -38,7 +38,7 @@ const Article1 = () => {
 
   return (
     <div className='main-article'>
-    <div className='container'>
+    <div className='container-fluid'>
         <div className='container-txt'>
             <h1 className="">Seu Nome pode Estar na Lista dos Próximos Aprovados no CFO CBMERJ 2024 </h1>
             <h2>Basta Clicar no Botão Abaixo</h2>
