@@ -1,6 +1,6 @@
 import './Header.scss'
 import Logo from '../../img/logo.webp'
-import VideoPlayerControl from '../VideoPlayer/VideoPlayerControl'
+import Fotovideo from '../../img/fotovideo.png'
 import BtnMudarDeVida from '../Btn-mudardevida/BtnMudarDeVida';
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
             </span>
         </div>
         <div className='video'>
-            <VideoPlayerControl src={''} /> 
+            <img src={Fotovideo} alt="" />
         </div>
 
         <BtnMudarDeVida/>
